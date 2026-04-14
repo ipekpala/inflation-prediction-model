@@ -31,3 +31,6 @@ python3 -m virtualenv venv
 source venv/bin/activate
 pip install -r requirements.txt
 streamlit run app.py
+## Live App
+
+https://inflation-prediction-model-6zn9q6rmcqplhcxardbauk.streamlit.app
