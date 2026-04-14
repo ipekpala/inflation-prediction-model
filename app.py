@@ -19,7 +19,7 @@ forecast_horizon = st.slider(
 
 @st.cache_data
 def load_inflation_data():
-    data = pd.read_csv("../economic-dashboard/inflation_data.csv", skiprows=4)
+    data = pd.read_csv("inflation_data.csv", skiprows=4)
     turkey = data[data["Country Name"] == "Turkiye"]
 
     years = []
